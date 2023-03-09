@@ -1,0 +1,33 @@
+Database Structure
+~~~~~*****~~~~~~~~
+
+user Table
+
+name email password image
+
+
+category Table
+
+slug name
+
+
+product Table
+
+category_id   slug  name  image  description   price   view_count()
+ 
+
+
+product_cart Table
+
+user_id   product_id    qty
+
+
+product_order
+
+user_id   product_id  qty
+
+
+
+product_save
+
+product_id  user_id   

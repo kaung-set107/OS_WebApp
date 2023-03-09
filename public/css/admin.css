@@ -1,0 +1,8 @@
+.list-group-item {
+    color: rgb(33, 33, 33);
+    border: 0px;
+}
+.list-group-item:hover {
+    color: rgb(29, 205, 253);
+    font-size: large;
+}
